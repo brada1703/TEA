@@ -1,0 +1,22 @@
+extends templates/format
+
+block append config
+    - var pageTitle = 'Grammar'
+
+block main
+    .row
+    .col-sm-3.col-lg-2
+        nav.navbar.navbar-default.navbar-fixed-side
+            p(style="color:white;") Grammar
+            ul
+                li
+                    a(href="#") Verbs
+                li
+                    a(href="#") Prepositions
+                li
+                    a(href="#") Nouns
+                li
+                    a(href="#") Phrasal Verbs
+    .col-sm-9.col-lg-10
+        p More Text
+        p text

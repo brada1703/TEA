@@ -1,0 +1,25 @@
+nav.navbar.navbar-default( role="navigation" )
+    .navbar-header
+        button.navbar-toggle.collapsed( type="button", data-toggle="collapse", data-target="#navbar-inverse", aria-expanded="false", aria-controls="navbar")
+            span.sr-only Toggle navigation
+            span.icon-bar
+            span.icon-bar
+            span.icon-bar
+        a.navbar-brand(href="http://www.theenglishauthority.com/") The English Authority
+
+    #navbar-inverse.collapse.navbar-collapse
+        ul.nav.navbar-nav.navbar-right
+            li.active: a( href="http://www.theenglishauthority.com/dist/blog.html") Blog
+            li: a( href="http://www.theenglishauthority.com/dist/grammar.html" ) Grammar
+            li: a( href="#contact" ) Pronunciation
+            li.dropdown
+                a.dropdown-toggle( href="#", data-toggle="dropdown", role="button", aria-expanded="false" ) Lessons
+                    span.caret
+                ul.dropdown-menu( role="menu" )
+                    li: a( href="#" ) Action
+                    li: a( href="#" ) Another action
+                    li: a( href="#" ) Something else here
+                    li.divider
+                    li.dropdown-header Nav header
+                    li: a( href="#" ) Separated link
+                    li: a( href="#" ) One more separated link

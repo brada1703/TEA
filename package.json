@@ -1,0 +1,18 @@
+{
+  "name": "theenglishauthority.com",
+  "version": "1.0.0",
+  "description": "The Authority on the English Language",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Almost Pitt",
+  "license": "ISC",
+  "devDependencies": {
+    "angular": "^1.6.0",
+    "gulp": "^3.9.1",
+    "gulp-pug": "^3.2.0",
+    "pug-bootstrap": "0.0.9"
+  }
+}

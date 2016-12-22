@@ -1,0 +1,12 @@
+extends templates/format
+
+block append config
+    - var pageTitle = 'Blog'
+
+block main
+    h1 Blog
+    p Check out the latest posts from The English Authority.
+    br
+    br
+    include templates/blogmixin
+
